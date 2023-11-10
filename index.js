@@ -2,10 +2,13 @@ const express=require('express')
 const fetchVideo = require('./utils/fetchVideoCron')
 const connection = require('./db/connection')
 const api=require('./routes/api')
+const compression=require('compression')
 const app=express()
 
+app.use(compression())
 app.use(express.json())
 const dotenv=require('dotenv').config()
+
 connection()
 fetchVideo()
 
