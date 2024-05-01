@@ -7,13 +7,13 @@ To make an API to fetch latest videos sorted in reverse chronological order of t
 1. Clone this repository to your local machine using the following command:
 
    ```
-   https://github.com/SHAKTHI-VEL/lineupx-assignment.git
+   https://github.com/SHAKTHI-VEL/cron-youtube-api.git
    ```
 
 2. Change your current directory to the project folder:
 
    ```
-   cd lineupx-assignment
+   cd cron-youtube-api
    ```
 
 3. Run the following command to fetch the dependencies:
